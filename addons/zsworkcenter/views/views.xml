@@ -1,0 +1,9 @@
+<odoo>
+    <!-- Top menu item -->
+    <menuitem name="至尚商业智能" id="zsbi_menu_root"  sequence="1"/>
+
+    <menuitem name="至尚业务数据" id="zsbi_zsodb" parent="zsbi_menu_root" sequence="1"/>
+    <menuitem name="平台数据" id="zsbi_odb" parent="zsbi_menu_root" sequence="2"/>
+    <menuitem name="终端数据" id="zsbi_odo" parent="zsbi_menu_root" sequence="3"/>
+    <menuitem name="钉钉报表" id="zsbi_dd_report" parent="zsbi_menu_root" sequence="4"/>
+</odoo>
